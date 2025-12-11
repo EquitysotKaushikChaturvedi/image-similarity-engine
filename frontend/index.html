@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Similarity Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>IMAGE SIMILARITY SEARCH</h1>
+        </header>
+
+        <section class="instructions">
+            <h2>INSTRUCTIONS</h2>
+            <p>1. Upload an image (JPEG/PNG).</p>
+            <p>2. Click 'SEARCH'.</p>
+            <p>3. See similar images from your dataset.</p>
+        </section>
+
+        <section class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+            <select id="limitSelect">
+                <option value="1">SHOW BEST MATCH (1)</option>
+                <option value="4" selected>SHOW TOP 4 MATCHES</option>
+            </select>
+            <button id="searchBtn">SEARCH_DATABASE [ENTER]</button>
+        </section>
+
+        <section id="resultsSection" class="hidden">
+            <h2>RESULTS</h2>
+            <div id="resultsGrid" class="grid">
+                <!-- Javascript will put images here -->
+            </div>
+        </section>
+
+        <footer>
+            <p>Powered by Hugging Face &amp; PyTorch</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

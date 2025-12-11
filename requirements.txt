@@ -1,0 +1,15 @@
+torch
+transformers
+torchvision
+pillow
+numpy
+scikit-learn
+tqdm
+fastapi
+uvicorn[standard]
+python-multipart
+datasets
+ipykernel
+matplotlib
+sentencepiece
+protobuf
