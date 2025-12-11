@@ -61,4 +61,8 @@ I've set it to only show **high-confidence matches (>80%)** so you don't get jun
 *   **Frontend**: Vanilla HTML/JS (Clean & Fast)
 *   **Index**: Simple NumPy/Pickle storage (no complex database required)
 
-Enjoy! Let me know if you have questions.
+# Example 
+
+<img width="1920" height="3478" alt="image" src="https://github.com/user-attachments/assets/1a937345-8be9-4905-90a3-1d68ef0c0c7f" />
+
+
