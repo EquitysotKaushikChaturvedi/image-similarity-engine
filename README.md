@@ -4,7 +4,7 @@ Hi! This is a complete, custom-built image similarity search engine. I designed 
 
 ## Project Structure
 
-I've organized the project to be clean and production-ready:
+ organized the project to be clean and production-ready:
 
 *   **`src/`**: Contains all the Python source code.
     *   `index_dataset.py`: The script to scan your data and build the search index.
